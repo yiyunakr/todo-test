@@ -73,7 +73,7 @@ export function BlockList() {
     }
   }
 
-  function handleDragEnd(event: DragEndEvent) {
+  function handleDragEnd(_event: DragEndEvent) {
     if (activeId && projected) {
       const { parentId } = projected;
 

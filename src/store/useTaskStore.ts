@@ -1,5 +1,5 @@
 import { create } from 'zustand';
-import type { Block, TaskState } from '../types/block';
+import type { TaskState } from '../types/block';
 import { generateId } from '../lib/id';
 import {
   getChildren,

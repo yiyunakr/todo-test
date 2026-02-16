@@ -10,8 +10,8 @@ const INDENTATION_WIDTH = 24;
 interface BlockItemProps {
   block: FlattenedBlock;
   style?: React.CSSProperties;
-  attributes?: Record<string, unknown>;
-  listeners?: Record<string, unknown>;
+  attributes?: React.HTMLAttributes<HTMLElement>;
+  listeners?: React.HTMLAttributes<HTMLElement>;
   setNodeRef?: (node: HTMLElement | null) => void;
   isDragging?: boolean;
 }
